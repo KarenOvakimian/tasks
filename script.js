@@ -4,6 +4,6 @@ function calcAgeInDays() {
   let daysInYear = 365;
   let ageInDays = ageInYears * daysInYear;
   
-  alert(`Ваш возраст в днях: ${ageInDays}`);
+  alert(`Your age in days: ${ageInDays}`);
 }
 calcAgeInDays()
