@@ -1,10 +1,9 @@
-function calcAge(ageInYears) {
-    const daysInYear = 365;
-    const ageInDays = ageInYears * daysInYear;
-    return ageInDays;
-  }
+function calcAgeInDays() {
+  let ageInYears= parseInt(prompt("Enter your age in years:"));
   
- 
-  console.log(calcAge(65)); // ➞ 23725
-  console.log(calcAge(0));  // ➞ 0
-  console.log(calcAge(20)); // ➞ 7300
+  let daysInYear = 365;
+  let ageInDays = ageInYears * daysInYear;
+  
+  alert(`Ваш возраст в днях: ${ageInDays}`);
+}
+calcAgeInDays()
